@@ -17,7 +17,7 @@ while not finish:
     #ASCII ART
     art.menuPrincipal()
     #menu
-    option = int(input("1 - Password Generator\n2 - Check password leak\n3 - Quit\n\nChoose an option:\n"))
+    option = int(input("1 - Password Generator\n2 - Check password leak\n3 - Quit\n\nChoose an option:"))
     match option:
         #Password Generator - Gerador de senha
         case 1:
@@ -47,7 +47,7 @@ while not finish:
                             print(f"\nHere is your password:\t{final_pass}\n")
             except ValueError:
                 print("Invalid number, trying again...")
-            input("- Press enter to continue -")
+            input("\n- Press enter to continue -")
         #Check if password was leaked - API
         case 2:
             connection_status = api_check.connection()
@@ -72,7 +72,7 @@ while not finish:
                     art.safePassword()
             else:
                 print("For some reason we couldn't connect to the database, check your connection or comeback later :)")
-            input("- Press enter to continue -")
+            input("\n- Press enter to continue -")
         case 3:
             print("\nThank you for using Pyssword!\ngithub.com/rodrigorxd")
             finish = True
