@@ -16,7 +16,7 @@
   python3 main.py
 ```
 <p>No API key needed</p>
-<p>DISCLAIMER: Your password IS NOT stored</p>
+<p>DISCLAIMER: Given passwords aren't stored</p>
 <hr>
 <h3 align="center">Wiki</h3>
 <p>This is my first personal project. It generates secure passwords accordingly to how many letters, numbers and symbols you want. The main feature is it's API integration, my first ever, where it gets info from leaked passwords databases (hashes) from "Have I Been Pwned".<br>With this project I learned about API requests, encrypting, modules, working with "random" on lists and basic programming concepts that are very important.<br>As I learn more programming concepts and techniques I pretend to make different versions and implement new functions to this and other projects on my GitHub</p>
