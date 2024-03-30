@@ -16,6 +16,9 @@ while not finish:
     art.menuPrincipal()
     #menu
     option = int(input("1 - Password Generator\n2 - Check password leak\n3 - Quit\n\nChoose an option:\n"))
+    qt_letters = 0
+    qt_numbers = 0
+    qt_symbols = 0
     match option:
         #Password Generator - Gerador de senha
         case 1:
